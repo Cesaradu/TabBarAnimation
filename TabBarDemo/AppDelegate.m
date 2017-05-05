@@ -22,8 +22,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    ADTabBarController *mainVC = [[ADTabBarController alloc] init];
-    self.window.rootViewController = mainVC;
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[ADTabBarController alloc] init]];
+    self.window.rootViewController = navi;
     
     return YES;
 }

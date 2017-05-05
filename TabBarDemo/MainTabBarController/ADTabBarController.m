@@ -14,6 +14,7 @@
 #import "UIColor+ColorHelper.h"
 #import "ADTabBar.h"
 #import "ADAnimationView.h"
+#import "SecondViewController.h"
 
 #define SCREEN_WIDTH                ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT               ([UIScreen mainScreen].bounds.size.height)
@@ -77,25 +78,26 @@
     {
         // 分别找到每个视图控制器
         UIViewController *vc        = controllerArray[i];
-        // 添加标题
+//        // 添加标题
         vc.title                    = titleArray[i];
-        // 转化成导航控制器
-        UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
-        // 将数组array中的视图控制器替换成导航控制器
-        [controllerArray replaceObjectAtIndex:i withObject:navi];
+#warning 在这里就转成导航控制器的话，点击弹出按钮跳转会有问题
+//        // 转化成导航控制器
+//        UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
+//        // 将数组array中的视图控制器替换成导航控制器
+//        [controllerArray replaceObjectAtIndex:i withObject:navi];
         
         // 渲染模式
         UIImage *normalImage = [UIImage imageNamed:normalImageArray[i]];
         UIImage *selectImage = [UIImage imageNamed:selectedImageArray[i]];
         
-        navi.tabBarItem.image         = [normalImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        navi.tabBarItem.selectedImage = [selectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        vc.tabBarItem.image         = [normalImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        vc.tabBarItem.selectedImage = [selectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
         //tabbar文字字体颜色
-        [navi.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHexString:@"474747" alpha:1.0]} forState:UIControlStateSelected];
+        [vc.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHexString:@"474747" alpha:1.0]} forState:UIControlStateSelected];
         
         //文字位置
-        [navi.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -3)];
+        [vc.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -3)];
         
     }
     self.viewControllers = controllerArray;

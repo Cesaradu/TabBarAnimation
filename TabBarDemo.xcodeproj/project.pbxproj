@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3888926B1EBC3D920072987F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888926A1EBC3D920072987F /* SecondViewController.m */; };
 		38F1F7DA1E80FFC8007AA06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7D91E80FFC8007AA06B /* main.m */; };
 		38F1F7DD1E80FFC8007AA06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7DC1E80FFC8007AA06B /* AppDelegate.m */; };
 		38F1F7E01E80FFC8007AA06B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7DF1E80FFC8007AA06B /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		06619F7AEC8E1E8ECC199A50 /* libPods-TabBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF9709529F0D9A621034C69 /* Pods-TabBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarDemo/Pods-TabBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		388892691EBC3D920072987F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3888926A1EBC3D920072987F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		38F1F7D51E80FFC8007AA06B /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F1F7D91E80FFC8007AA06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38F1F7DB1E80FFC8007AA06B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				38F1F80F1E8109A7007AA06B /* ADTabBarController.m */,
 				38F1F81F1E81124F007AA06B /* ADAnimationView.h */,
 				38F1F8201E81124F007AA06B /* ADAnimationView.m */,
+				388892691EBC3D920072987F /* SecondViewController.h */,
+				3888926A1EBC3D920072987F /* SecondViewController.m */,
 			);
 			path = MainTabBarController;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3888926B1EBC3D920072987F /* SecondViewController.m in Sources */,
 				38F1F8171E8109A7007AA06B /* DynamicViewController.m in Sources */,
 				38F1F7F81E810379007AA06B /* UIColor+ColorHelper.m in Sources */,
 				38F1F8211E81124F007AA06B /* ADAnimationView.m in Sources */,

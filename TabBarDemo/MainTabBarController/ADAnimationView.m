@@ -10,6 +10,8 @@
 #import "UIColor+ColorHelper.h"
 #import "pop.h"
 #import "SDiPhoneVersion.h"
+#import "SecondViewController.h"
+#import "ADTabBarController.h"
 
 #define SCREEN_WIDTH                ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT               ([UIScreen mainScreen].bounds.size.height)
@@ -149,6 +151,14 @@
             scaleAnim11.springSpeed = 20;
             scaleAnim11.springBounciness = 16;
             [self.button1.layer pop_addAnimation:scaleAnim11 forKey:@"scaleAnim11"];
+            
+            scaleAnim11.completionBlock = ^(POPAnimation *animation, BOOL finished) {
+                UINavigationController *navi = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+                SecondViewController *secondVC = [[SecondViewController alloc] init];
+//                [navi pushViewController:secondVC animated:YES];
+                [navi presentViewController:secondVC animated:YES completion:nil];
+                [self removeFromSuperview];
+            };
         }
             break;
             
@@ -166,6 +176,14 @@
             scaleAnim22.springSpeed = 20;
             scaleAnim22.springBounciness = 16;
             [self.button2.layer pop_addAnimation:scaleAnim22 forKey:@"scaleAnim22"];
+            
+            scaleAnim22.completionBlock = ^(POPAnimation *animation, BOOL finished) {
+                UINavigationController *navi = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+                SecondViewController *secondVC = [[SecondViewController alloc] init];
+//                [navi pushViewController:secondVC animated:YES];
+                [navi presentViewController:secondVC animated:YES completion:nil];
+                [self removeFromSuperview];
+            };
         }
             
             break;
@@ -184,6 +202,14 @@
             scaleAnim33.springSpeed = 20;
             scaleAnim33.springBounciness = 16;
             [self.button3.layer pop_addAnimation:scaleAnim33 forKey:@"scaleAnim33"];
+            
+            scaleAnim33.completionBlock = ^(POPAnimation *animation, BOOL finished) {
+                UINavigationController *navi = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+                SecondViewController *secondVC = [[SecondViewController alloc] init];
+//                [navi pushViewController:secondVC animated:YES];
+                [navi presentViewController:secondVC animated:YES completion:nil];
+                [self removeFromSuperview];
+            };
         }
             
             break;
@@ -202,6 +228,14 @@
             scaleAnim44.springSpeed = 20;
             scaleAnim44.springBounciness = 16;
             [self.button4.layer pop_addAnimation:scaleAnim44 forKey:@"scaleAnim44"];
+            
+            scaleAnim44.completionBlock = ^(POPAnimation *animation, BOOL finished) {
+                UINavigationController *navi = (UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+                SecondViewController *secondVC = [[SecondViewController alloc] init];
+//                [navi pushViewController:secondVC animated:YES];
+                [navi presentViewController:secondVC animated:YES completion:nil];
+                [self removeFromSuperview];
+            };
         }
             
             break;
