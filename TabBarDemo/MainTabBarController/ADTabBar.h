@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADTabBarItem.h"
 
 @class ADTabBar;
 
@@ -22,5 +23,13 @@
 @interface ADTabBar : UITabBar
 
 @property (nonatomic, weak) id<ADTabBarDelegate> adDelegate;
+
+
+/**
+ 数据，主要用于判断有几个BarItem
+ */
+@property (nonatomic, strong) NSArray *dataSource;
+
+@property (nonatomic, weak) ADTabBarItem *seleItem;
 
 @end

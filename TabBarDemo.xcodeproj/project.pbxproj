@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384B43081EC0703E008A6D64 /* ADTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43071EC0703E008A6D64 /* ADTabBarItem.m */; };
+		384B430E1EC07200008A6D64 /* AnimationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B430D1EC07200008A6D64 /* AnimationFactory.m */; };
+		384B43111EC07240008A6D64 /* TabBarItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43101EC07240008A6D64 /* TabBarItemAnimation.m */; };
+		384B43141EC07285008A6D64 /* JelloAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43131EC07285008A6D64 /* JelloAnimation.m */; };
+		384B43171EC075D5008A6D64 /* ADTabBarSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43161EC075D5008A6D64 /* ADTabBarSource.m */; };
 		3888926B1EBC3D920072987F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888926A1EBC3D920072987F /* SecondViewController.m */; };
 		38F1F7DA1E80FFC8007AA06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7D91E80FFC8007AA06B /* main.m */; };
 		38F1F7DD1E80FFC8007AA06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7DC1E80FFC8007AA06B /* AppDelegate.m */; };
@@ -28,6 +33,18 @@
 /* Begin PBXFileReference section */
 		06619F7AEC8E1E8ECC199A50 /* libPods-TabBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF9709529F0D9A621034C69 /* Pods-TabBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarDemo/Pods-TabBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		384B43061EC0703E008A6D64 /* ADTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabBarItem.h; sourceTree = "<group>"; };
+		384B43071EC0703E008A6D64 /* ADTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabBarItem.m; sourceTree = "<group>"; };
+		384B430A1EC0715D008A6D64 /* AnimationType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationType.h; sourceTree = "<group>"; };
+		384B430B1EC07195008A6D64 /* ADTabBarAnimationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADTabBarAnimationProtocol.h; sourceTree = "<group>"; };
+		384B430C1EC07200008A6D64 /* AnimationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationFactory.h; sourceTree = "<group>"; };
+		384B430D1EC07200008A6D64 /* AnimationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationFactory.m; sourceTree = "<group>"; };
+		384B430F1EC07240008A6D64 /* TabBarItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItemAnimation.h; sourceTree = "<group>"; };
+		384B43101EC07240008A6D64 /* TabBarItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItemAnimation.m; sourceTree = "<group>"; };
+		384B43121EC07285008A6D64 /* JelloAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JelloAnimation.h; sourceTree = "<group>"; };
+		384B43131EC07285008A6D64 /* JelloAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JelloAnimation.m; sourceTree = "<group>"; };
+		384B43151EC075D5008A6D64 /* ADTabBarSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabBarSource.h; sourceTree = "<group>"; };
+		384B43161EC075D5008A6D64 /* ADTabBarSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabBarSource.m; sourceTree = "<group>"; };
 		388892691EBC3D920072987F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3888926A1EBC3D920072987F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		38F1F7D51E80FFC8007AA06B /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +91,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384B43091EC07127008A6D64 /* ADTabBarItemAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				384B430A1EC0715D008A6D64 /* AnimationType.h */,
+				384B430B1EC07195008A6D64 /* ADTabBarAnimationProtocol.h */,
+				384B430C1EC07200008A6D64 /* AnimationFactory.h */,
+				384B430D1EC07200008A6D64 /* AnimationFactory.m */,
+				384B430F1EC07240008A6D64 /* TabBarItemAnimation.h */,
+				384B43101EC07240008A6D64 /* TabBarItemAnimation.m */,
+				384B43121EC07285008A6D64 /* JelloAnimation.h */,
+				384B43131EC07285008A6D64 /* JelloAnimation.m */,
+			);
+			path = ADTabBarItemAnimation;
+			sourceTree = "<group>";
+		};
 		38F1F7CC1E80FFC8007AA06B = {
 			isa = PBXGroup;
 			children = (
@@ -152,12 +184,17 @@
 		38F1F80B1E8109A7007AA06B /* MainTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				384B43091EC07127008A6D64 /* ADTabBarItemAnimation */,
 				38F1F80C1E8109A7007AA06B /* ADTabBar.h */,
 				38F1F80D1E8109A7007AA06B /* ADTabBar.m */,
 				38F1F80E1E8109A7007AA06B /* ADTabBarController.h */,
 				38F1F80F1E8109A7007AA06B /* ADTabBarController.m */,
 				38F1F81F1E81124F007AA06B /* ADAnimationView.h */,
 				38F1F8201E81124F007AA06B /* ADAnimationView.m */,
+				384B43061EC0703E008A6D64 /* ADTabBarItem.h */,
+				384B43071EC0703E008A6D64 /* ADTabBarItem.m */,
+				384B43151EC075D5008A6D64 /* ADTabBarSource.h */,
+				384B43161EC075D5008A6D64 /* ADTabBarSource.m */,
 				388892691EBC3D920072987F /* SecondViewController.h */,
 				3888926A1EBC3D920072987F /* SecondViewController.m */,
 			);
@@ -326,17 +363,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3888926B1EBC3D920072987F /* SecondViewController.m in Sources */,
+				384B43141EC07285008A6D64 /* JelloAnimation.m in Sources */,
 				38F1F8171E8109A7007AA06B /* DynamicViewController.m in Sources */,
 				38F1F7F81E810379007AA06B /* UIColor+ColorHelper.m in Sources */,
 				38F1F8211E81124F007AA06B /* ADAnimationView.m in Sources */,
 				38F1F7E01E80FFC8007AA06B /* ViewController.m in Sources */,
 				38F1F7DD1E80FFC8007AA06B /* AppDelegate.m in Sources */,
 				38F1F8191E8109A7007AA06B /* ADTabBarController.m in Sources */,
+				384B43081EC0703E008A6D64 /* ADTabBarItem.m in Sources */,
 				38F1F8181E8109A7007AA06B /* ADTabBar.m in Sources */,
 				38F1F81A1E8109A7007AA06B /* MessageViewController.m in Sources */,
 				38F1F81B1E8109A7007AA06B /* MineViewController.m in Sources */,
+				384B430E1EC07200008A6D64 /* AnimationFactory.m in Sources */,
 				38F1F8161E8109A7007AA06B /* HomeViewController.m in Sources */,
 				38F1F7DA1E80FFC8007AA06B /* main.m in Sources */,
+				384B43171EC075D5008A6D64 /* ADTabBarSource.m in Sources */,
+				384B43111EC07240008A6D64 /* TabBarItemAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
