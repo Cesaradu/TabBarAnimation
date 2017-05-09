@@ -14,10 +14,14 @@
 
 @implementation MessageViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.navigationItem.title = @"消息";
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tabBarController.navigationItem.title = @"消息";
 }
 
 - (void)didReceiveMemoryWarning {

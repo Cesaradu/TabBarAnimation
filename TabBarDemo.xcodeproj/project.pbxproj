@@ -12,6 +12,7 @@
 		384B43111EC07240008A6D64 /* TabBarItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43101EC07240008A6D64 /* TabBarItemAnimation.m */; };
 		384B43141EC07285008A6D64 /* JelloAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43131EC07285008A6D64 /* JelloAnimation.m */; };
 		384B43171EC075D5008A6D64 /* ADTabBarSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B43161EC075D5008A6D64 /* ADTabBarSource.m */; };
+		3884E4F61EC1703D0095D45D /* UIColor+ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3884E4F51EC1703D0095D45D /* UIColor+ColorHelper.m */; };
 		3888926B1EBC3D920072987F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888926A1EBC3D920072987F /* SecondViewController.m */; };
 		38F1F7DA1E80FFC8007AA06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7D91E80FFC8007AA06B /* main.m */; };
 		38F1F7DD1E80FFC8007AA06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7DC1E80FFC8007AA06B /* AppDelegate.m */; };
@@ -19,7 +20,6 @@
 		38F1F7E31E80FFC8007AA06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F1F7E11E80FFC8007AA06B /* Main.storyboard */; };
 		38F1F7E51E80FFC8007AA06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F1F7E41E80FFC8007AA06B /* Assets.xcassets */; };
 		38F1F7E81E80FFC8007AA06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F1F7E61E80FFC8007AA06B /* LaunchScreen.storyboard */; };
-		38F1F7F81E810379007AA06B /* UIColor+ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7F71E810379007AA06B /* UIColor+ColorHelper.m */; };
 		38F1F8161E8109A7007AA06B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F8071E8109A7007AA06B /* HomeViewController.m */; };
 		38F1F8171E8109A7007AA06B /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F80A1E8109A7007AA06B /* DynamicViewController.m */; };
 		38F1F8181E8109A7007AA06B /* ADTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F80D1E8109A7007AA06B /* ADTabBar.m */; };
@@ -45,6 +45,8 @@
 		384B43131EC07285008A6D64 /* JelloAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JelloAnimation.m; sourceTree = "<group>"; };
 		384B43151EC075D5008A6D64 /* ADTabBarSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabBarSource.h; sourceTree = "<group>"; };
 		384B43161EC075D5008A6D64 /* ADTabBarSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabBarSource.m; sourceTree = "<group>"; };
+		3884E4F41EC1703D0095D45D /* UIColor+ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHelper.h"; sourceTree = "<group>"; };
+		3884E4F51EC1703D0095D45D /* UIColor+ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHelper.m"; sourceTree = "<group>"; };
 		388892691EBC3D920072987F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3888926A1EBC3D920072987F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		38F1F7D51E80FFC8007AA06B /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,8 +59,6 @@
 		38F1F7E41E80FFC8007AA06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F1F7E71E80FFC8007AA06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F1F7E91E80FFC8007AA06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38F1F7F61E810379007AA06B /* UIColor+ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHelper.h"; sourceTree = "<group>"; };
-		38F1F7F71E810379007AA06B /* UIColor+ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHelper.m"; sourceTree = "<group>"; };
 		38F1F8061E8109A7007AA06B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		38F1F8071E8109A7007AA06B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		38F1F8091E8109A7007AA06B /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
@@ -106,6 +106,15 @@
 			path = ADTabBarItemAnimation;
 			sourceTree = "<group>";
 		};
+		3884E4F31EC1703D0095D45D /* UIColorHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3884E4F41EC1703D0095D45D /* UIColor+ColorHelper.h */,
+				3884E4F51EC1703D0095D45D /* UIColor+ColorHelper.m */,
+			);
+			path = UIColorHelper;
+			sourceTree = "<group>";
+		};
 		38F1F7CC1E80FFC8007AA06B = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				38F1F80B1E8109A7007AA06B /* MainTabBarController */,
-				38F1F7F51E810379007AA06B /* UIColorHelper */,
 				38F1F8051E8109A7007AA06B /* Home */,
 				38F1F8081E8109A7007AA06B /* Dynamic */,
 				38F1F8101E8109A7007AA06B /* Message */,
@@ -154,15 +162,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		38F1F7F51E810379007AA06B /* UIColorHelper */ = {
-			isa = PBXGroup;
-			children = (
-				38F1F7F61E810379007AA06B /* UIColor+ColorHelper.h */,
-				38F1F7F71E810379007AA06B /* UIColor+ColorHelper.m */,
-			);
-			path = UIColorHelper;
-			sourceTree = "<group>";
-		};
 		38F1F8051E8109A7007AA06B /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +183,7 @@
 		38F1F80B1E8109A7007AA06B /* MainTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				3884E4F31EC1703D0095D45D /* UIColorHelper */,
 				384B43091EC07127008A6D64 /* ADTabBarItemAnimation */,
 				38F1F80C1E8109A7007AA06B /* ADTabBar.h */,
 				38F1F80D1E8109A7007AA06B /* ADTabBar.m */,
@@ -365,7 +365,6 @@
 				3888926B1EBC3D920072987F /* SecondViewController.m in Sources */,
 				384B43141EC07285008A6D64 /* JelloAnimation.m in Sources */,
 				38F1F8171E8109A7007AA06B /* DynamicViewController.m in Sources */,
-				38F1F7F81E810379007AA06B /* UIColor+ColorHelper.m in Sources */,
 				38F1F8211E81124F007AA06B /* ADAnimationView.m in Sources */,
 				38F1F7E01E80FFC8007AA06B /* ViewController.m in Sources */,
 				38F1F7DD1E80FFC8007AA06B /* AppDelegate.m in Sources */,
@@ -375,6 +374,7 @@
 				38F1F81A1E8109A7007AA06B /* MessageViewController.m in Sources */,
 				38F1F81B1E8109A7007AA06B /* MineViewController.m in Sources */,
 				384B430E1EC07200008A6D64 /* AnimationFactory.m in Sources */,
+				3884E4F61EC1703D0095D45D /* UIColor+ColorHelper.m in Sources */,
 				38F1F8161E8109A7007AA06B /* HomeViewController.m in Sources */,
 				38F1F7DA1E80FFC8007AA06B /* main.m in Sources */,
 				384B43171EC075D5008A6D64 /* ADTabBarSource.m in Sources */,

@@ -85,7 +85,6 @@
     MineViewController *mineVC = [[MineViewController alloc] init];
     
     NSMutableArray *controllerArray = [NSMutableArray arrayWithObjects:homeVC, dynamicVC, msgVC, mineVC, nil];
-    
     NSMutableArray *normalImageArray = [NSMutableArray arrayWithArray:@[@"tab-home_icon nor", @"tab-news_icon nor", @"tab-message_icon nor", @"tab-mine_icon nor"]];
     NSMutableArray *selectedImageArray = [NSMutableArray arrayWithArray:@[@"tab-home_icon sel", @"tab-news_icon sel", @"tab-message_icon sel", @"tab-mine_icon sel"]];
     NSMutableArray *titleArray = [NSMutableArray arrayWithArray:@[@"首页", @"动态", @"信息", @"我的"]];
@@ -93,13 +92,8 @@
     {
         // 分别找到每个视图控制器
         UIViewController *vc        = controllerArray[i];
-//        // 添加标题
+        // 添加标题
         vc.title                    = titleArray[i];
-#warning 在这里就转成导航控制器的话，点击弹出按钮跳转会有问题
-//        // 转化成导航控制器
-//        UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
-//        // 将数组array中的视图控制器替换成导航控制器
-//        [controllerArray replaceObjectAtIndex:i withObject:navi];
         
         // 渲染模式
         UIImage *normalImage = [UIImage imageNamed:normalImageArray[i]];
@@ -233,8 +227,6 @@
     ADTabBarItem *barItem = (ADTabBarItem *)[self.adTabBar.items objectAtIndex:index];
     [self tabBar:self.adTabBar didSelectItem:barItem];
 }
-
-
 
 
 - (void)didReceiveMemoryWarning {

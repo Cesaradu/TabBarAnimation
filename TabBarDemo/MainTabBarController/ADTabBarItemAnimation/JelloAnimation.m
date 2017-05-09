@@ -29,7 +29,7 @@
     animation.toValue = @(2);
     animation.duration = self.duration;
     animation.autoreverses = YES;
-    animation.repeatCount = 2;
+    animation.repeatCount = 1;
     [barIcon.layer addAnimation:animation forKey:nil];
 }
 - (void)deselectAnimation:(UIImageView *)barIcon textLabel:(UILabel *)barTitle {
