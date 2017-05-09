@@ -1,4 +1,4 @@
 # TabBarAnimation
 效果图
 
-![image](https://github.com/Cesaradu/TabBarAnimation/blob/master/TabBarDemo.gif)
+![image](https://github.com/Cesaradu/TabBarAnimation/blob/master/TabBarAnimation.gif)
