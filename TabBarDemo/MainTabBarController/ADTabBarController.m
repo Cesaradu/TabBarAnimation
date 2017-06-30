@@ -206,8 +206,6 @@
  */
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
     ADTabBarItem *nowItem = (ADTabBarItem *)item;
-    NSLog(@"nowItem.tag === %ld",(long)nowItem.tag);
-    NSLog(@"selectItem.tag === %ld",(long)self.adTabBar.seleItem.tag);
     if (nowItem.tag != self.adTabBar.seleItem.tag) {
         [nowItem playAnimation:[self.barImageArr objectAtIndex:nowItem.tag] textLabel:[self.barTitleArr objectAtIndex:nowItem.tag]];
         [self.adTabBar.seleItem deselectAnimation:[self.barImageArr objectAtIndex:self.adTabBar.seleItem.tag] textLabel:[self.barTitleArr objectAtIndex:self.adTabBar.seleItem.tag]];

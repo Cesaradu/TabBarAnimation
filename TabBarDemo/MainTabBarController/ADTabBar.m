@@ -18,7 +18,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.adDelegate = self;
         //添加一个按钮到tabBar中
         self.centerBtn = [[UIButton alloc] init];
         self.centerBtn.adjustsImageWhenHighlighted = NO;//取消按钮的选中阴影效果
@@ -42,6 +41,7 @@
     //再来调整5个按钮的位置
     [super layoutSubviews];
     
+    //选中item
     self.seleItem = (ADTabBarItem *)self.selectedItem;
     
     //1.设置中间按钮的位置

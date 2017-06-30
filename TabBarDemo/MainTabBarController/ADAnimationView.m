@@ -141,7 +141,7 @@
             //缩放动画
             POPSpringAnimation *scaleAnim1 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
             scaleAnim1.beginTime = CACurrentMediaTime();
-            scaleAnim1.toValue = [NSValue valueWithCGPoint:CGPointMake(1.3, 1.3)];
+            scaleAnim1.toValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.2)];
             scaleAnim1.springSpeed = 20;
             scaleAnim1.springBounciness = 16;
             [self.button1.layer pop_addAnimation:scaleAnim1 forKey:@"scaleAnim1"];
@@ -166,7 +166,7 @@
         {
             POPSpringAnimation *scaleAnim2 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
             scaleAnim2.beginTime = CACurrentMediaTime();
-            scaleAnim2.toValue = [NSValue valueWithCGPoint:CGPointMake(1.3, 1.3)];
+            scaleAnim2.toValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.2)];
             scaleAnim2.springSpeed = 20;
             scaleAnim2.springBounciness = 16;
             [self.button2.layer pop_addAnimation:scaleAnim2 forKey:@"scaleAnim2"];
@@ -192,7 +192,7 @@
         {
             POPSpringAnimation *scaleAnim3 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
             scaleAnim3.beginTime = CACurrentMediaTime();
-            scaleAnim3.toValue = [NSValue valueWithCGPoint:CGPointMake(1.3, 1.3)];
+            scaleAnim3.toValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.2)];
             scaleAnim3.springSpeed = 20;
             scaleAnim3.springBounciness = 16;
             [self.button3.layer pop_addAnimation:scaleAnim3 forKey:@"scaleAnim3"];
@@ -218,7 +218,7 @@
         {
             POPSpringAnimation *scaleAnim4 = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
             scaleAnim4.beginTime = CACurrentMediaTime();
-            scaleAnim4.toValue = [NSValue valueWithCGPoint:CGPointMake(1.3, 1.3)];
+            scaleAnim4.toValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.2)];
             scaleAnim4.springSpeed = 20;
             scaleAnim4.springBounciness = 16;
             [self.button4.layer pop_addAnimation:scaleAnim4 forKey:@"scaleAnim4"];
